@@ -16,17 +16,23 @@
 
     function Switch()
     {
-    var txt = prompt("Press ' 1 ' for Casual View or ' 2 ' for Formal View", "1");
- 
-  if (txt === "2") {
-   a = "https://msakabir.github.io/formal/";
 
-}
-  else if (txt === "1") {
+var txt = prompt("Press ' 1 ' for Casual View or ' 2 ' for Django Website or ' 3 ' for Formal Website", "1");
+ 
+if (txt === "1") {
 
    a = "https://msakabir.github.io/casual/";
 
 }
+  else if (txt === "2") {
+
+  a = "https://msakabir.herokuapp.com";
+}
+  else if (txt === "3") {
+
+   a = "https://msakabir.github.io/formal/";
+}
+
 else
 {
    window.open('', '_self', '');
